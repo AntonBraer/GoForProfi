@@ -6,8 +6,8 @@ import (
 	"strconv"
 )
 
-func namedMinMax(x,y int) (min,max int){
-	if x>y{
+func namedMinMax(x, y int) (min, max int) {
+	if x > y {
 		min = y
 		max = x
 	} else {
@@ -25,6 +25,6 @@ func main() {
 	}
 	a1, _ := strconv.Atoi(arguments[1])
 	a2, _ := strconv.Atoi(arguments[2])
-	fmt.Println(namedMinMax(a1,a2))
+	fmt.Println(namedMinMax(a1, a2))
 
 }

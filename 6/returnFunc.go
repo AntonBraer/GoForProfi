@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func funReturnFun() func() int{
-	i :=0
-	return func() int{
+func funReturnFun() func() int {
+	i := 0
+	return func() int {
 		i++
 		return i * i
 	}

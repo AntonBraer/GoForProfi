@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func getPtr(v *float64) float64{
+func getPtr(v *float64) float64 {
 	return *v * *v
 }
 
